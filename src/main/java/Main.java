@@ -5,10 +5,7 @@
 public class Main {
   public static void main(String[] args) {
     
-
-
     Rabbit rabbit = new Rabbit();
-
     rabbit.flee();
 
     Hawk hawk = new Hawk();
@@ -19,6 +16,10 @@ public class Main {
 
     Dog dog = new Dog();
     dog.makeNoise();
+    dog.name = "Gonorrea";
+    dog.printName();
+
+    dog.hunt();
   }
 
   // @Test
